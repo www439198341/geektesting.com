@@ -1,0 +1,93 @@
+
+body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, b, small, u, i, center, dl, dt, dd, ol, ul, li, sub, sup, tt, var, del, dfn, ins, kbd, q, s, samp, strike, applet, object, iframe, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, blockquote, pre, a, abbr, acronym, address, big, cite, code, mark, audio, video, input, textarea, select {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li, dl {
+    list-style: none;
+}
+
+/*表头宽度*/
+.w1190 {
+    /*width: 1190px;*/
+    /*margin: 0 auto;*/
+}
+
+.select li {
+    /*background: #f8ffc5;*/
+    color: #00051e;
+    /*font-size: .16rem;*/
+    font-size: 0.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.2rem;
+    border-top: 1px solid #4a5050;
+
+    /*height:0.1rem;*/
+}
+
+.select li span {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.select .name {
+    width: 11.53846154%;
+}
+
+.select .schooling {
+    width: 11.27012522%;
+}
+
+.select .major {
+    width: 20.93023256%;
+}
+
+.select .employ {
+    width: 24.370304%;
+}
+
+.yellow-tit .salsry {
+    color: black !important;
+}
+
+.select .salsry {
+    width: 17.44186047%;
+    color: #FFCA2A;
+}
+
+.select .address {
+    /*width: 11.18067979%;*/
+}
+
+/*表格宽度，高度*/
+.select .win {
+    width: 100%;
+    height: 5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.select ol {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.select li {
+    /*background-color: #ebf9fe !important;*/
+
+}
+
+/*表头颜色渐变*/
+.select .yellow-tit {
+    /*background: linear-gradient(to right, #02edca, #00c7fd);*/
+    background: #f8ffc5;
+}
+
+.select .salsry {
+    color: #02cefb;
+    font-weight: 900;
+}
